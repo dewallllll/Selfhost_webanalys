@@ -1,0 +1,337 @@
+.main {
+  margin-left: 360px;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.content {
+  padding-bottom: 100px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+/* The sidebar menu */
+.sidenav-m3 {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 360px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: -20;
+  /* Stay at the top */
+  left: 0;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 0px;
+}
+
+.sidenav-m3 li {
+  color: black;
+  display: block;
+  position: relative
+}
+
+.web_analys {
+  max-width: 100%;
+  height: auto;
+
+  display: flex;
+
+  display: block;
+  position: relative;
+  z-index: 2;
+  box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .25)
+}
+
+.web_analys_def {
+  max-width: 70%;
+  height: auto;
+  display: flex;
+
+
+
+  display: block;
+  position: relative;
+  z-index: 2;
+  box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .25)
+}
+
+.open {
+  max-width: 70%;
+  height: auto;
+  display: flex;
+
+  display: block;
+  position: relative;
+  z-index: 2;
+  box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .25)
+}
+
+footer {
+  background-color: #00aff0;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer_text {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.web_analys_img {
+  max-width: 50%;
+  height: auto;
+  display: flex;
+
+
+
+  display: block;
+  position: relative;
+  z-index: 2;
+  box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .25)
+}
+
+.video {
+  max-width: 90%;
+  display: flex;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.a {
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.hidebar {
+  visibility: hidden;
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 768px) {
+
+  .hidebar {
+    visibility: visible;
+  }
+
+  .h2 {
+    font-size: 30px;
+  }
+
+  .h-menu {
+    height: 170px;
+    font-size: large;
+    margin-bottom: 20px;
+  }
+
+  .h-menu>li>a {
+    font-size: 30px;
+  }
+
+  .h-menu>li {
+    width: auto;
+    font-size: large;
+  }
+
+  .hidebar_img {
+    width: 50px;
+    height: 50px;
+  }
+
+
+  table,
+  tr,
+  td,
+  tbody,
+  td p table div,
+  table table {
+    width: 100% !important;
+    float: left;
+    clear: both;
+    display: block;
+    text-align: center;
+  }
+
+  table img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .upmenu {
+    width: 50px;
+  }
+
+  .hidebar {
+    visibility: visible;
+  }
+
+  .sidenav-m3 {
+    font-size: 20px;
+    z-index: 20;
+    display: none;
+    width: 1000px;
+    position: relative;
+  }
+
+  .main {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 85px;
+
+  }
+
+  .pc-nav {
+    width: auto;
+    height: auto;
+  }
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+  .footer_text {
+    font-size: 30px;
+    padding-top: 5px;
+  }
+
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #00aff0;
+  }
+
+
+
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+
+  .sidenav-m3 {
+    font-size: 16px;
+  }
+
+  .hidebar_img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .h-menu {
+    height: 130px;
+    ;
+    font-size: large;
+    margin-bottom: 20px;
+  }
+
+  .h-menu>li>a {
+    font-size: 20px;
+  }
+
+  .h-menu>li {
+    width: auto;
+    font-size: large;
+  }
+
+  h2 {
+    font-size: 30px
+  }
+
+  .footer_text {
+    font-size: 25px;
+  }
+
+  footer {
+    height: 60px;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 375px) {
+  .footer_text {
+    font-size: 20px;
+  }
+
+  footer {
+    height: 60px
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 320px) {
+  .h-menu {
+    height: 160px;
+    font-size: large;
+    margin-bottom: 20px;
+  }
+
+  .h-menu>li>a {
+    font-size: 14px;
+  }
+
+  .h-menu>li {
+    width: auto;
+    font-size: large;
+  }
+
+  h2 {
+    font-size: 30px
+  }
+
+  .footer_text {
+    font-size: 17px;
+  }
+
+  footer {
+    height: 60px
+  }
+}
