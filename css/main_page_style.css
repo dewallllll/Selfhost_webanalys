@@ -169,7 +169,7 @@ footer {
   }
 
   .h-menu>li>a {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .h-menu>li {
@@ -276,7 +276,7 @@ footer {
   }
 
   .h-menu>li>a {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .h-menu>li {
@@ -285,7 +285,7 @@ footer {
   }
 
   h2 {
-    font-size: 30px
+    font-size: 25px
   }
 
   .footer_text {
@@ -299,7 +299,7 @@ footer {
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 375px) {
   .footer_text {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   footer {
