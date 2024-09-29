@@ -309,7 +309,7 @@ footer {
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 320px) {
   .h-menu {
-    height: 160px;
+    height: 110px;
     font-size: large;
     margin-bottom: 20px;
   }
@@ -324,7 +324,7 @@ footer {
   }
 
   h2 {
-    font-size: 30px
+    font-size: 25px
   }
 
   .footer_text {
@@ -333,5 +333,51 @@ footer {
 
   footer {
     height: 60px
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 313px) {
+  .h-menu {
+    height: 140px;
+    font-size: large;
+    margin-bottom: 20px;
+  }
+
+  .h-menu>li>a {
+    font-size: 13px;
+  }
+
+  .footer_text {
+    font-size: 15px;
+  }
+
+  footer {
+    height: 60px
+  }
+
+  .logo {
+    height: auto;
+    width: 100%;
+    max-width: 30px;
+    max-height: 70px;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 313px) {
+  .hidebar_img {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 284px) {
+  .h-menu {
+    height: 140px;
+    font-size: large;
+    margin-bottom: 20px;
+  }
+
+  .h-menu>li>a {
+    font-size: 12.6px;
   }
 }
