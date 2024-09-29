@@ -257,7 +257,7 @@ footer {
 
 }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 0px) and (max-device-width: 517px) {
 
   .sidenav-m3 {
     font-size: 16px;
@@ -417,5 +417,18 @@ footer {
 
   .h-menu>li>a {
     font-size: 12px;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 274px) {
+  .h-menu {
+    height: 140px;
+    font-size: large;
+    margin-bottom: 20px;
+  }
+
+  .h-menu>li>a {
+    font-size: 12px;
+    width: 65px;
   }
 }
